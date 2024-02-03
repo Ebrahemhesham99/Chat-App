@@ -13,38 +13,39 @@
     <div class="wrapper">
         <section class="form sign-up">
             <header>Real time Chat App</header>
-            <form action="#"method="get">
-                <div class="error-txt">This an error msg</div>
+            <form action="#" enctype="multipart/form-data" >
+                <div class="error-txt"></div>
                 <div class="name-details">
                     <div class="field input">
                         <label for="fname">First name :</label>
-                        <input type="text" id="fname" name="fname" placeholder="Your first name ...">
+                        <input type="text" id="fname" name="fname" placeholder="Your first name ..." required>
                     </div>
                     <div class="field input">
                         <label for="lname">Last name :</label>
-                        <input type="text" id="lname" name="lname" placeholder="Your last name ...">
+                        <input type="text" id="lname" name="lname" placeholder="Your last name ..." required>
                     </div>
                 </div>
                 <div class="field input">
                     <label for="email">Email Address :</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
                 </div>
                 <div class="field input">
                     <label for="pass">password :</label>
-                    <input type="password" id="pass" name="pass" placeholder="Enter new password">
+                    <input type="password" id="pass" name="pass" placeholder="Enter new password" required>
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field image">
                     <label for="img">select an image</label>
-                    <input type="file" id="img" name="img">
+                    <input type="file" id="img" name="img" required>
                 </div>
                 <div class="field button">
                     <input type="submit" id="submit" name="submit" value="continue to chat">
                 </div>
             </form>
-            <div class="link">Already signed up ?<a href="login.html" class="">Login now</a></div>
+            <div class="link">Already signed up ?<a href="login.php" class="">Login now</a></div>
         </section>
     </div>
     <script src="js/password.js"></script>
+    <script src="js/signup.js"></script>
 </body>
 </html>

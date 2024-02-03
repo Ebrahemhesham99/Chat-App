@@ -23,12 +23,11 @@
                     <input type="password" id="pass" name="pass" placeholder="Enter new password">
                     <i class="fas fa-eye"></i>
                 </div>
-                
                 <div class="field button">
                     <input type="submit" id="submit" name="submit" value="continue to chat">
                 </div>
             </form>
-            <div class="link">Not signed yet ? <a href="index.html" class="">sign up now</a></div>
+            <div class="link">Not signed yet ? <a href="index.php" class="">sign up now</a></div>
         </section>
     </div>
     <script src="js/password.js"></script>
